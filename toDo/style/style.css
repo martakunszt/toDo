@@ -23,7 +23,17 @@ h1{
 
 #add{
 position:absolute;
-left:49%;
+left:55%;
+top:18%;
+height:33px;
+border-radius:5%;
+background-color: #a04668;
+border:none;
+color:white;
+}
+.delete{
+position:absolute;
+left:40%;
 top:18%;
 height:33px;
 border-radius:5%;
@@ -35,7 +45,7 @@ color:white;
 
 #todo{
     background-color: #d9d0de;
-    height: 800px;
+    height: 600px;
     width:800px;
     position:absolute;
     left:23%;
@@ -43,6 +53,7 @@ color:white;
     border-radius:1%;
     border:solid 1px #a04668;
     padding:0;
+    padding-bottom:50px;
 }
 
 ul li{
